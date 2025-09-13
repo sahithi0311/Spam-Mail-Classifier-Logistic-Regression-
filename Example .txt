@@ -1,0 +1,26 @@
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Run Jupyter Notebook
+jupyter notebook spam_classifier.ipynb
+
+📌 Dataset
+
+The dataset used is mail_data.csv, containing 5572 SMS messages labeled as:
+
+Ham (1) → Not Spam
+
+Spam (0) → Spam Messages
+
+📈 Model Performance
+
+✅ Training Accuracy: ~97%
+
+✅ Test Accuracy: ~96%
+
+📷 Example Predictions
+Input: "Congratulations! You have won a free ticket to Bahamas!"
+Prediction: Spam Mail
+
+Input: "Hey, are we still meeting for lunch today?"
+Prediction: Ham Mail
